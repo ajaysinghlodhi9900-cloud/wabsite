@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final Project | Task 5</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">MyProject</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h2>Final Web Project</h2>
+    <p>Responsive, Optimized & Cross-Browser Compatible</p>
+    <button id="themeBtn">Toggle Dark Mode</button>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+
+    <div class="card-container">
+      <div class="card">
+        <img src="images/project1.jpg" loading="lazy" alt="project">
+        <h3>Project One</h3>
+        <p>Responsive web design using HTML & CSS.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/project2.jpg" loading="lazy" alt="project">
+        <h3>Project Two</h3>
+        <p>JavaScript based dynamic features.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/project3.jpg" loading="lazy" alt="project">
+        <h3>Project Three</h3>
+        <p>Optimized & performance focused site.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="formMsg"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Final Project | Task 5</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
